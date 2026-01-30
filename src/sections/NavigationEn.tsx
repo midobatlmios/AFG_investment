@@ -36,7 +36,9 @@ const NavigationEn = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-white shadow-lg py-4`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-white ${
+          isScrolled ? 'py-2 shadow-xl' : 'py-4 shadow-lg'
+        }`}
       >
         <div className="w-full px-6 lg:px-12 xl:px-20">
           <div className="flex items-center justify-between">

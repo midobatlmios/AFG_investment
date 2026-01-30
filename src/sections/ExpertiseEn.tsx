@@ -130,28 +130,31 @@ const ExpertiseEn = () => {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              {services.map((service, index) => (
-                <button
-                  key={service.title}
-                  onClick={() => setActiveService(index)}
-                  className={`w-full p-4 rounded-xl text-left transition-all ${
-                    activeService === index
-                      ? 'bg-gold text-navy'
-                      : 'bg-white/5 border border-white/10 text-white hover:border-gold/30'
-                  }`}
-                >
-                  <div className="flex items-center gap-3">
-                    <service.icon className="w-5 h-5" />
-                    <span className="font-medium">{service.title}</span>
-                  </div>
-                </button>
-              ))}
+              {services.map((service, index) => {
+                const Icon = service.icon;
+                return (
+                  <button
+                    key={service.title}
+                    onClick={() => setActiveService(index)}
+                    className={`w-full p-4 rounded-xl text-left transition-all ${
+                      activeService === index
+                        ? 'bg-gold text-navy'
+                        : 'bg-white/5 border border-white/10 text-white hover:border-gold/30'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <Icon className="w-5 h-5" />
+                      <span className="font-medium">{service.title}</span>
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </div>
 
           {/* Service Details */}
           <div className="grid lg:grid-cols-3 gap-6">
-            {services[activeService].items.map((item, index) => (
+            {services[activeService].items.map((item) => (
               <div
                 key={item}
                 className="flex items-start gap-3 p-4 rounded-lg bg-white/5 border border-white/10 hover:border-gold/20 transition-all group"
