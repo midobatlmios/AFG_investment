@@ -72,10 +72,10 @@ const Navigation = () => {
             {/* Language & CTA */}
             <div className="hidden lg:flex items-center gap-6">
               <a
-                href="/en"
+                href="#"
                 onClick={(e) => {
                   e.preventDefault();
-                  navigate('/en');
+                  navigate('#');
                 }}
                 className="text-sm text-navy/60 hover:text-gold transition-colors"
               >

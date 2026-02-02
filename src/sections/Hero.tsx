@@ -4,10 +4,27 @@ import { ChevronRight, TrendingUp, Building2, Landmark } from 'lucide-react';
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef<HTMLElement>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+const backgroundImages = [
+  '/images/imagefirst.jpg',
+  '/images/imagesecond.jpg',
+  '/images/ten.jpeg',
+];
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
+
+  useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImageIndex((prevIndex) => 
+      (prevIndex + 1) % backgroundImages.length
+    );
+  }, 5000);
+
+  return () => clearInterval(interval);
+}, []);
 
   const services = [
     { icon: TrendingUp, label: 'Conseil Financier' },
@@ -21,13 +38,24 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src="/hero-bg.gif"
-          alt="Background"
-          className="w-full h-full object-cover"
-        />
-      </div>
+      {/* Background Images */}
+<div className="absolute inset-0">
+  {backgroundImages.map((image, index) => (
+    <div
+      key={image}
+      className={`absolute inset-0 transition-opacity duration-1000 ${
+        index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+      }`}
+    >
+      <img
+        src={image}
+        alt=""
+        className="w-full h-full object-cover"
+      />
+    </div>
+  ))}
+  <div className="absolute inset-0 bg-black/40" />
+  </div>
 
       {/* Animated Grid Pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -125,6 +153,24 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* Navigation Arrows */}
+<button
+  onClick={() => setCurrentImageIndex((prev) => 
+    prev === 0 ? backgroundImages.length - 1 : prev - 1
+  )}
+  className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/10 hover:bg-white/20 border border-white/30 transition-all"
+>
+  <ChevronRight className="w-6 h-6 text-white rotate-180" />
+</button>
+
+<button
+  onClick={() => setCurrentImageIndex((prev) => 
+    (prev + 1) % backgroundImages.length
+  )}
+  className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 p-3 rounded-full bg-white/10 hover:bg-white/20 border border-white/30 transition-all"
+>
+  <ChevronRight className="w-6 h-6 text-white" />
+</button>
     </section>
   );
 };

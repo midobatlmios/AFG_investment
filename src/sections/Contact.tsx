@@ -65,11 +65,11 @@ const Contact = () => {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="w-12 h-px bg-gold" />
-              <span className="text-gold text-sm font-medium tracking-wider uppercase">
+              <div className="w-12 h-px bg-white" />
+              <span className="text-white text-sm font-medium tracking-wider uppercase">
                 Contact
               </span>
-              <div className="w-12 h-px bg-gold" />
+              <div className="w-12 h-px bg-white" />
             </div>
 
             <h2
@@ -77,7 +77,7 @@ const Contact = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
             >
-              Restons en <span className="text-gradient-gold">contact</span>
+              Restons en contact
             </h2>
 
             <p

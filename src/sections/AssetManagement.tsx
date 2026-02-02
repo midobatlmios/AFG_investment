@@ -68,8 +68,8 @@ const AssetManagement = () => {
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
                 }`}
               >
-                <div className="w-12 h-px bg-gold" />
-                <span className="text-gold text-sm font-medium tracking-wider uppercase">
+                <div className="w-12 h-px bg-white" />
+                <span className="text-white text-sm font-medium tracking-wider uppercase">
                   Gestion d'actifs
                 </span>
               </div>
@@ -79,7 +79,7 @@ const AssetManagement = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
               >
-                AFG <span className="text-gradient-gold">Asset Management</span>
+                AFG Asset Management
               </h2>
 
               <p

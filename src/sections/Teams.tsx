@@ -66,11 +66,11 @@ const Teams = () => {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="w-12 h-px bg-gold" />
-              <span className="text-gold text-sm font-medium tracking-wider uppercase">
+              <div className="w-12 h-px bg-blue-dark" />
+              <span className="text-blue-dark text-sm font-medium tracking-wider uppercase">
                 Nos équipes
               </span>
-              <div className="w-12 h-px bg-gold" />
+              <div className="w-12 h-px bg-blue-dark" />
             </div>
 
             <h2
@@ -78,8 +78,8 @@ const Teams = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
             >
-              Des équipes <span className="text-gradient-gold">expérimentées</span> au service
-              de nos clients & partenaires
+              Des équipes expérimentées au service
+              de nos clients et partenaires
             </h2>
           </div>
 
@@ -103,7 +103,7 @@ const Teams = () => {
                       <h3 className="font-serif text-2xl font-semibold text-navy">
                         Notre Capital Humain
                       </h3>
-                      <p className="text-gold text-sm">L'excellence au cœur de notre métier</p>
+                      <p className="text-black text-sm">L'excellence au cœur de notre métier</p>
                     </div>
                   </div>
 
@@ -147,7 +147,7 @@ const Teams = () => {
                   </div>
                   <a
                     href="mailto:rejoindreafg@afginvestmentbank.com"
-                    className="text-gold hover:text-gold-light transition-colors font-medium break-all"
+                    className="text-blue-dark hover:text-gold-light transition-colors font-medium break-all"
                   >
                     rejoindreafg@afginvestmentbank.com
                   </a>
@@ -155,15 +155,15 @@ const Teams = () => {
 
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center p-4 rounded-xl bg-gray-50 border border-gray-200">
-                    <div className="font-serif text-2xl font-bold text-gold mb-1">40+</div>
+                    <div className="font-serif text-2xl font-bold text-blue-dark mb-1">40+</div>
                     <div className="text-xs text-gray-600">Collaborateurs</div>
                   </div>
                   <div className="text-center p-4 rounded-xl bg-gray-50 border border-gray-200">
-                    <div className="font-serif text-2xl font-bold text-gold mb-1">8</div>
+                    <div className="font-serif text-2xl font-bold text-blue-dark mb-1">8</div>
                     <div className="text-xs text-gray-600">Nationalités</div>
                   </div>
                   <div className="text-center p-4 rounded-xl bg-gray-50 border border-gray-200">
-                    <div className="font-serif text-2xl font-bold text-gold mb-1">15+</div>
+                    <div className="font-serif text-2xl font-bold text-blue-dark mb-1">15+</div>
                     <div className="text-xs text-gray-600">Années moyenne</div>
                   </div>
                 </div>

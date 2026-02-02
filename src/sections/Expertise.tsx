@@ -45,7 +45,7 @@ const Expertise = () => {
     },
     {
       icon: Building,
-      title: 'Privatisations, PPP & Concessions',
+      title: 'Privatisations, PPP et Concessions',
       items: [
         'Conseil aux autorités publiques',
         'Accompagnement des investisseurs',
@@ -101,8 +101,8 @@ const Expertise = () => {
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
                 }`}
               >
-                <div className="w-12 h-px bg-gold" />
-                <span className="text-gold text-sm font-medium tracking-wider uppercase">
+                <div className="w-12 h-px bg-white" />
+                <span className="text-white text-sm font-medium tracking-wider uppercase">
                   Notre expertise
                 </span>
               </div>
@@ -112,8 +112,8 @@ const Expertise = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
               >
-                Conseil &{' '}
-                <span className="text-gradient-gold">Ingénierie Financière</span>
+                Conseil et{' '}
+               Ingénierie Financière
               </h2>
 
               <p

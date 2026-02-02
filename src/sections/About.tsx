@@ -58,8 +58,8 @@ const About = () => {
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
                 }`}
               >
-                <div className="w-12 h-px bg-gold" />
-                <span className="text-gold text-sm font-medium tracking-wider uppercase">
+                <div className="w-12 h-px bg-blue-dark" />
+                <span className="text-blue-dark text-sm font-medium tracking-wider uppercase">
                   Qui sommes-nous
                 </span>
               </div>
@@ -71,7 +71,7 @@ const About = () => {
             }`}
               >
                 Un acteur historique du{' '}
-                <span className="text-blue-dark">marché financier</span> au Maroc
+                marché financier au Maroc
               </h2>
 
               {/* Description */}

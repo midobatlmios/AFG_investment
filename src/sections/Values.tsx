@@ -26,19 +26,19 @@ const Values = () => {
   const values = [
     {
       icon: Shield,
-      title: 'Indépendance & Confidentialité',
+      title: 'Indépendance et Confidentialité',
       description:
         "AFG n'est liée à aucune institution financière évitant ainsi tout conflit d'intérêt et privilégiant le seul intérêt de ses clients et partenaires. Le respect de la confidentialité étant un facteur clé de succès de toute opération, nos équipes s'obligent au respect d'un strict secret professionnel.",
     },
     {
       icon: Users2,
-      title: 'Engagement & Professionnalisme',
+      title: 'Engagement et Professionnalisme',
       description:
         "Connues pour leur rigueur et leur efficacité, nos équipes sont en permanence disponibles et totalement engagées dans le succès du mandat qui leur est confié. Munies d'une expertise multisectorielle, elles affichent une formation aux meilleurs standards.",
     },
     {
       icon: Lightbulb,
-      title: 'Créativité & Innovation',
+      title: 'Créativité et Innovation',
       description:
         "Constamment en quête d'innovation et toujours soucieuses d'offrir une prestation élaborée et de qualité, les équipes d'AFG se singularisent par leur capacité à aborder et traiter des opérations complexes ou exigeantes.",
     },
@@ -61,11 +61,11 @@ const Values = () => {
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="w-12 h-px bg-gold" />
-              <span className="text-gold text-sm font-medium tracking-wider uppercase">
+              <div className="w-12 h-px bg-blue-dark" />
+              <span className="text-blue-dark text-sm font-medium tracking-wider uppercase">
                 Nos valeurs
               </span>
-              <div className="w-12 h-px bg-gold" />
+              <div className="w-12 h-px bg-blue-dark" />
             </div>
 
             <h2
@@ -73,8 +73,8 @@ const Values = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
             >
-              Elles nous <span className="text-gradient-gold">portent</span> et nous{' '}
-              <span className="text-gradient-gold">engagent</span>
+              Elles nous portent et nous{' '}
+              engagent
             </h2>
 
             <p

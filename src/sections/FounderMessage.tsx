@@ -47,18 +47,18 @@ const FounderMessage = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <div className="w-12 h-px bg-gold" />
-            <span className="text-gold text-sm font-medium tracking-wider uppercase">
+            <div className="w-12 h-px bg-white" />
+            <span className="text-white text-sm font-medium tracking-wider uppercase">
               Mot du fondateur
             </span>
-            <div className="w-12 h-px bg-gold" />
+            <div className="w-12 h-px bg-white" />
           </div>
 
           {/* Quote Card */}
           <div
-            className={`relative p-8 lg:p-12 rounded-3xl bg-navy border border-white/10 transition-all duration-700 delay-200 z-20 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-            }`}
+           className={`relative p-12 rounded-3xl bg-navy-light border border-white/5 hover:border-gold/30 transition-all duration-500 cursor-pointer ${
+                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                }`}
           >
             {/* Quote Icon */}
             <Quote className="absolute top-8 left-8 w-12 h-12 text-gold/20" />

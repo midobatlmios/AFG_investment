@@ -71,8 +71,8 @@ const Investment = () => {
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
                 }`}
               >
-                <div className="w-12 h-px bg-gold" />
-                <span className="text-gold text-sm font-medium tracking-wider uppercase">
+                <div className="w-12 h-px bg-blue-dark" />
+                <span className="text-blue-dark text-sm font-medium tracking-wider uppercase">
                   Capital-Investissement
                 </span>
               </div>
@@ -83,7 +83,7 @@ const Investment = () => {
             }`}
               >
                 Des professionnels engagés au service de la{' '}
-                <span className="text-gradient-gold">création de valeur</span>
+                création de valeur
               </h2>
 
               <p
@@ -104,7 +104,7 @@ const Investment = () => {
                 }`}
               >
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  <span className="text-gold font-medium">AFG apporte des solutions sur-mesure</span>{' '}
+                  AFG apporte des solutions sur-mesure{' '}
                   aux entreprises partenaires et à leurs dirigeants, en leur garantissant
                   l'accès à un écosystème performant.
                 </p>

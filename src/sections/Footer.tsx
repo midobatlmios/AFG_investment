@@ -47,7 +47,7 @@ const Footer = () => {
       <img
         src="/images/footer-bg.gif"
         alt="footer background"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full "
       />
       
       {/* Main Footer */}
