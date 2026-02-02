@@ -250,6 +250,6 @@
 
 /* Section divider */
 .section-divider {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, hsl(var(--gold) / 0.3), transparent);
+  height: 0px;
+  background: linear-gradient(0%, transparent, hsl(var(--gold) / 0.0), transparent);
 }

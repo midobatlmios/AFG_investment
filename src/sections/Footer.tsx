@@ -42,10 +42,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative border-t border-white/5 overflow-hidden">
+    <footer className="relative border-t  overflow-hidden">
       {/* Background Image */}
       <img
-        src="/images/footer-bg.gif"
+        src="/images/footerd.gif"
         alt="footer background"
         className="absolute inset-0 w-full h-full "
       />
