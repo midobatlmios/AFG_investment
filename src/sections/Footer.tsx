@@ -45,7 +45,7 @@ const Footer = () => {
     <footer className="relative border-t  overflow-hidden">
       {/* Background Image */}
       <img
-        src="/images/footerd.gif"
+        src="/images/footer-bg.gif"
         alt="footer background"
         className="absolute inset-0 w-full h-full "
       />
