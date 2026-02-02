@@ -47,9 +47,9 @@ const Navigation = () => {
               className="flex items-center"
             >
               <img
-                src="/images/logo-normalfinal.png"
+                src="/images/afg_h.png"
                 alt="AFG Investment Bank Logo"
-                className="h-12 w-auto"
+                className="h-18 w-auto"
                 style={{ maxWidth: '180px' }}
               />
             </a>
@@ -84,7 +84,8 @@ const Navigation = () => {
               <a
                 href="#contact"
                 onClick={(e) => scrollToSection(e, '#contact')}
-                className="px-5 py-2.5 bg-gold text-navy text-sm font-semibold rounded hover:bg-gold-light transition-colors"
+                className="px-5 py-2.5 text-white text-sm font-semibold rounded hover:bg-gold-light transition-colors"
+                style={{ backgroundColor: 'rgb(40, 46, 73)' }}
               >
                 Nous contacter
               </a>
@@ -123,7 +124,8 @@ const Navigation = () => {
           <a
             href="#contact"
             onClick={(e) => scrollToSection(e, '#contact')}
-            className="mt-8 px-8 py-3 bg-gold text-navy font-semibold rounded"
+            className="mt-8 px-8 py-3 text-white font-semibold rounded"
+            style={{ backgroundColor: 'rgb(40, 46, 73)' }}
           >
             Nous contacter
           </a>

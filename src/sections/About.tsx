@@ -66,12 +66,12 @@ const About = () => {
 
               {/* Title */}
               <h2
-                className={`font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy mb-6 transition-all duration-700 delay-100 ${
-                  isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-                }`}
+                className={`font-serif text-black mb-6 transition-all duration-700 delay-100 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
               >
                 Un acteur historique du{' '}
-                <span className="text-gradient-gold">marché financier</span> au Maroc
+                <span className="text-blue-dark">marché financier</span> au Maroc
               </h2>
 
               {/* Description */}
@@ -108,7 +108,7 @@ const About = () => {
                     e.preventDefault();
                     document.querySelector('#expertise')?.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors group"
+                  className="inline-flex items-center gap-2 text-blue-dark hover:text-gold-light transition-colors group"
                 >
                   <span className="font-medium">Découvrir notre expertise</span>
                   <span className="group-hover:translate-x-2 transition-transform">→</span>

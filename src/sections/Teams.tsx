@@ -74,9 +74,9 @@ const Teams = () => {
             </div>
 
             <h2
-              className={`font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy mb-6 max-w-4xl mx-auto transition-all duration-700 delay-100 ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-              }`}
+              className={`font-serif text-black mb-6 transition-all duration-700 delay-100 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
             >
               Des équipes <span className="text-gradient-gold">expérimentées</span> au service
               de nos clients & partenaires

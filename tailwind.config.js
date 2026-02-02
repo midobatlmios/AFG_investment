@@ -65,6 +65,7 @@ module.exports = {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
         gold: "0 0 30px rgba(201, 169, 98, 0.2)",
         "gold-lg": "0 0 50px rgba(201, 169, 98, 0.3)",
+        white: "0 10px 15px -3px rgba(255, 255, 255, 0.2)",
       },
       keyframes: {
         "accordion-down": {
