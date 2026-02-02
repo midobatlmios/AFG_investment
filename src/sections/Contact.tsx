@@ -43,13 +43,10 @@ const Contact = () => {
       id="contact"
       ref={sectionRef}
       className="relative py-24 lg:py-32 overflow-hidden"
+      style={{ backgroundColor: '#282e49' }}
     >
       {/* Background Image */}
-      <img
-        src="/hero-bg.gif"
-        alt="background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      
 
       {/* Background */}
       <div className="absolute inset-0">
